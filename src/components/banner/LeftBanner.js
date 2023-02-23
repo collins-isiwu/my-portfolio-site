@@ -1,11 +1,12 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Backend developer.", "Full Stack Developer.", "API Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -14,9 +15,9 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className=" text-lg font-normal">WELCOME!</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Collins Isiwu</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -27,9 +28,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Dynamic and creative python full stack developer with over three years of experience in producing robust code. 
+        In previous roles, I have used my knowledge of Python, C, JavaScript, Django, Django-REST framework, Flask, Laravel, ReactJs, VueJs, HTML, CSS, Docker to build impressive 
+        software programs and web applications serving users. Looking to deliver excellent web development in JavaScript and Python to help grow businesses.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -39,37 +40,19 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <a href='https://github.com/collins-isiwu' target="_blank" rel="noreferrer"><FaGithub /></a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+              <a href='mailto:collinscisiwu@outlook.com' target="_blank" rel="noreferrer"><HiOutlineMail/></a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+              <a href="https://linkedin.com/in/collins-isiwu" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
             </span>
           </div>
         </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
-          </div>
+
         </div>
       </div>
-    </div>
   );
 }
 

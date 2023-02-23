@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import {logo} from "../../assets/index"
 
 const Footer = () => {
@@ -8,14 +9,14 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
+          <button className="bannerIcon">
+            <a href='https://github.com/collins-isiwu' target="_blank" rel="noreferrer"><FaGithub /></a>
+          </button>
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a href='mailto:collinscisiwu@outlook.com' target="_blank" rel="noreferrer"><HiOutlineMail/></a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="https://linkedin.com/in/collins-isiwu" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
           </span>
         </div>
       </div>

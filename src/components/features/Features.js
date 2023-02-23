@@ -15,38 +15,31 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
-        />
+          des="Analyze Business needs and convert it to written codes to improve profitability."
+          />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Web App Development"
+          des="Developing aesthetic and technically fast websites for business."
           icon={<AiFillAppstore />}
         />
         <Card
           title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Search engine optimization to get your website to rank higher on a search engine results page (SERP) so that you receive more traffic."
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="RESTful API Development"
+          des="Run your business Web and Mobile applications with a single RESTful API backend."
           icon={<FaMobile />}
         />
         <Card
           title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Get your customers addicted to your brand with deep understanding of users, what they need, what they value, their abilities, and also their limitations."
           icon={<SiAntdesign />}
         />
         <Card
           title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Dedicated, Cloud or Shared hosting, depending on business needs and financial capability."
           icon={<FaGlobe />}
         />
       </div>

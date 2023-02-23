@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectTwo, projectFour, projectFive, projectSix, projectSeven, projectEight } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -17,40 +17,40 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="Menus.ng"
+          des="Menus NG is Abuja's largest growing restaurant directory. With 100+ listings, users can discover and connect with their favourite spots, view their full food and drinks menu"
+          src={projectFour}
+          href='https://menus.ng/'
         />
         <ProjectsCard
           title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          des="Stream Bank helps over 2 million customers achieve their financial goals by helping them save and invest with ease. Put that extra cash to use without putting it at risk with Stream Bank."
+          src={projectFive}
+          href='https://www.streameufunds.com/'
         />
         <ProjectsCard
           title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          des="An eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”"
+          src={projectSix}
+          git='https://github.com/collins-isiwu/Commerce'
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Network"
+          des="A Twitter-like social network website for making posts and following users."
+          src={projectEight}
+          git='https://github.com/collins-isiwu/Network'
+        />
+        <ProjectsCard
+          title="e-Library"
+          des="Library is a web application built with Django that makes API calls to Google Book API via JQUERY in order to retrieve information about the searched book. It uses PostgreSQL to store and retrieve already searched books. Categorizes book and so much more."
           src={projectTwo}
+          git='https://github.com/collins-isiwu/library'
+        />
+        <ProjectsCard
+          title="Email"
+          des="A front-end for an email client that makes API calls to send and receive emails. This project shows my JavaScript prowress. This is a single-page web application that's controlled by JavaScript."
+          src={projectSeven}
+          git='https://github.com/collins-isiwu/eMail'
         />
       </div>
     </section>

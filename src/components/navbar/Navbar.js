@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -45,9 +46,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I'm a Python, PHP, C and JavaScript developer with an interest in web development. I use frameworks like Django, Django-REST framework, Laravel, Flask, ReactJs, Bootstrap and technologies like docker, PostgreSQL, MySQL.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -76,13 +75,13 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                    <a href='https://github.com/collins-isiwu' target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                    <a href='mailto:collinscisiwu@outlook.com' target="_blank" rel="noreferrer"><HiOutlineMail/></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                    <a href="https://linkedin.com/in/collins-isiwu" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
                   </span>
                 </div>
               </div>
