@@ -11,20 +11,21 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND GIVE YOUR FEEDBACK"
+          title="VISIT MY PORTFOLIO"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="Menus.ng"
-          des="Menus NG is Abuja's largest growing restaurant directory. With 100+ listings, users can discover and connect with their favourite spots, view their full food and drinks menu"
+          title="Farmdine"
+          des="Farmdine is a B2B marketplace designed for food vendors and restaurants in Nigeria. This backend API, built using Django and Django Rest Framework, integrates seamlessly with the Paystack payment gateway."
           src={projectFour}
-          href='https://menus.ng/'
+          href='https://farmdine-backend.onrender.com/'
+          git='https://github.com/InternPulse/farmdine-backend'
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des="An eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”"
+          title="Auction"
+          des="An e-commerce site that allows users to create auctions, place bids on listings, comment on those listings, and add listings to a “watchlist.”"
           src={projectSix}
           git='https://github.com/collins-isiwu/Commerce'
           href='https://f3ture.pythonanywhere.com/'

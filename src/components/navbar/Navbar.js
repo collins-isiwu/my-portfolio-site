@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={logo} alt="logo" />
+        <img className='rounded' src={logo} alt="logo" />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -44,10 +44,7 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                I'm a Python, PHP, C and JavaScript developer with an interest in web development. I use frameworks like Django, Django-REST framework, Laravel, Flask, ReactJs, Bootstrap and technologies like docker, PostgreSQL, MySQL.
-                </p>
+                <img className="w-32 rounded" src={logo} alt="logo" />
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
