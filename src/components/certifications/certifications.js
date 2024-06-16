@@ -6,7 +6,7 @@ import CertificationsCard from './CertificationsCard';
 const Certifications = () => {
   return (
     <section
-      id="projects"
+      id="certifications"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
