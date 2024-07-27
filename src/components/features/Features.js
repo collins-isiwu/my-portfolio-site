@@ -25,19 +25,19 @@ const Features = () => {
           icon={<TbApi />}
         />
         <Card
-          title="Software Design"
+          title="System Design"
           des="I create intuitive and scalable systems that enhance user experience and drive robust, long-term business performance."
           icon={<AiFillAppstore />}
           />
         <Card
+          title="AI Integration"
+          des="Building AI products using chains and agents, and integrating AI into various projects."
+          icon={<SiAntdesign />}
+        />
+        <Card
           title="SEO Optimisation"
           des="Search engine optimization to get your website to rank higher on a search engine results page (SERP) so that you receive more traffic."
           icon={<TbBrowserCheck />}
-        />
-        <Card
-          title="Web Scraping"
-          des="Proficient in web scraping using Python, I extract valuable data efficiently to inform decision-making and drive impactful business insights."
-          icon={<SiAntdesign />}
         />
         <Card
           title="Hosting"

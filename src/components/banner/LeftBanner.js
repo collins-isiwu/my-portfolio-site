@@ -7,7 +7,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Backend Developer.", "API Developer."],
+      words: ["Backend Developer.", "API Developer.", "AI Engineer."],
       loop: true,
       typeSpeed: 100,
       deleteSpeed: 10,
@@ -29,10 +29,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base sm:text-sm md:text-base lg:text-lg font-bodyFont leading-6 sm:leading-5 md:leading-6 lg:leading-6 tracking-wide">
-        Dynamic and creative Python Developer with over three years of hands-on experience in creating robust and scalable software solutions. 
-        Proficient in utilizing a range of technologies including Python, JavaScript, Django, Flask, ReactJS, and FastAPI. 
-        I have experience delivering high-quality RESTful APIs, microservices and other software applications. 
-        Eager to leverage my skills in web development and Python to contribute to business growth and success.
+        Dynamic and creative Python Developer with over three years of experience in developing robust and scalable AI and software solutions. Proficient in Python, JavaScript, Django, Flask, ReactJS, and FastAPI. Skilled in creating high-quality RESTful APIs, microservices, and integrating AI models using TensorFlow, PyTorch, and DeepFace. I am eager to leverage my expertise to contribute to business growth and success.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

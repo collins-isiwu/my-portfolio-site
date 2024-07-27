@@ -31,10 +31,11 @@ const Projects = () => {
           href='https://f3ture.pythonanywhere.com/'
         />
         <ProjectsCard
-          title="Network"
-          des="A Twitter-like social network website for making posts and following users."
+          title="TrustLend API"
+          des="TrustLend offers a robust loan API that empowers users to seamlessly take out and repay loans using the Paystack payment gateway."
           src={projectEight}
-          git='https://github.com/collins-isiwu/Network'
+          git='https://github.com/collins-isiwu/trustlend'
+          href='https://trustlend.onrender.com/'
         />
       </div>
     </section>
