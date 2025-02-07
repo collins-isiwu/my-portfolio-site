@@ -1,5 +1,5 @@
 import React from 'react'
-import { TbApi, TbBrowserCheck } from "react-icons/tb";
+import { TbApi, TbBrandWhatsapp} from "react-icons/tb";
 import { AiFillAppstore } from "react-icons/ai";
 import { FaGlobe, FaDev } from "react-icons/fa";
 import { SiAntdesign } from "react-icons/si";
@@ -25,6 +25,11 @@ const Features = () => {
           icon={<TbApi />}
         />
         <Card
+          title="WhatsApp Bot"
+          des="Automated WhatsApp bot development to deliver real-time customer interactions."
+          icon={<TbBrandWhatsapp />}
+        />
+        <Card
           title="System Design"
           des="I create intuitive and scalable systems that enhance user experience and drive robust, long-term business performance."
           icon={<AiFillAppstore />}
@@ -35,13 +40,8 @@ const Features = () => {
           icon={<SiAntdesign />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Search engine optimization to get your website to rank higher on a search engine results page (SERP) so that you receive more traffic."
-          icon={<TbBrowserCheck />}
-        />
-        <Card
-          title="Hosting"
-          des="Dedicated, Cloud or Shared hosting, depending on business needs and financial capability."
+          title="Cloud Services"
+          des="Cloud services deployment and management using AWS, optimizing infrastructure for scalability, security, and performance."
           icon={<FaGlobe />}
         />
       </div>
